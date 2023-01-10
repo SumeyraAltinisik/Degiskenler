@@ -20,22 +20,23 @@
             //toplam = sayi1 + sayi2;
             //Console.Write(toplam);
 
-            int sayi1, sayi2, toplam, fark, carpim, bolum;
+            double sayi1, sayi2, toplam, fark, carpim;
+            double bolum;
             Console.WriteLine("Bir sayı giriniz:");
             sayi1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Birinci sayı:" + sayi1);
             Console.WriteLine("Bir sayı daha giriniz:");
             sayi2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Birinci sayı:" + sayi1);
             Console.WriteLine("İkinci sayı:" + sayi2);
             
             toplam = sayi1 + sayi2;
-            Console.WriteLine(toplam);
+            Console.WriteLine("Toplam:" + toplam);
             fark = sayi1 - sayi2;
-            Console.WriteLine(fark);
+            Console.WriteLine("Fark:" + fark);
             carpim = sayi1 * sayi2;
-            Console.WriteLine(carpim);
+            Console.WriteLine("Çarpım:" + carpim);
             bolum = sayi1 / sayi2;
-            Console.WriteLine(bolum);
+            Console.WriteLine("Bölüm:" + bolum);
             Console.Read();
 
         }
